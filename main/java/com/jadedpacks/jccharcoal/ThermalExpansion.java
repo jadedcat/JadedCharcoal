@@ -122,11 +122,11 @@ public class ThermalExpansion {
 				Parts.darkoak.writeToNBT(toSend.getCompoundTag("input"));
 				FMLInterModComms.sendMessage("ThermalExpansion", "FurnaceRecipe", toSend);
 				toSend = new NBTTagCompound();
-				JadedCharcoal.log.info("JadedTweaks Furnace tweaks loaded");
+				JadedCharcoal.log.info("Jaded Vanilla Furnace tweaks loaded");
 
 			
 	
-	if (Loader.isModLoaded("Forestry"))
+				if (Loader.isModLoaded("Forestry"))
 		{
 			ItemStack flog1a = Wood.acacia;
 			ItemStack flog1b = Wood.balsa;
@@ -531,9 +531,7 @@ public class ThermalExpansion {
 			FMLInterModComms.sendMessage("ThermalExpansion", "FurnaceRecipe", toSend);
 			toSend = new NBTTagCompound();
 			}
-		
-		JadedCharcoal.log.info("Jaded changed the charcoal output of Forestry logs");
-		
+				
 		if (Loader.isModLoaded("Natura"))
 		{
 			Item nlog1 = GameRegistry.findItem("Natura", "redwood");

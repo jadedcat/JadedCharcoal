@@ -33,7 +33,7 @@ public class JadedCharcoal
 {
 	public static final String MODID = "JCCharcoal";
 	public static final String NAME = "JCCharcoal";
-	public static final String VERSION = "1.0.8";
+	public static final String VERSION = "1.0.11";
 	public static final Logger log = LogManager.getLogger(MODID);
     
 	@Mod.EventHandler
@@ -129,6 +129,7 @@ public class JadedCharcoal
 	public void loadComplete(FMLLoadCompleteEvent event)
 
 	{
+		
 		if (Loader.isModLoaded("ThermalExpansion"))
 		{
 			ThermalExpansion.loadComplete();
