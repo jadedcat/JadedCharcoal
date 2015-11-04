@@ -35,7 +35,38 @@ public class Forestry {
 				if ((Wood.acacia != null))
 					
 				{
+					
 					//stuff for new api
+					
+					RecipeRemover.removeFurnaceRecipe(Wood.acacia);
+					RecipeRemover.removeFurnaceRecipe(Wood.balsa);
+					RecipeRemover.removeFurnaceRecipe(Wood.baobab);
+					RecipeRemover.removeFurnaceRecipe(Wood.cherry);
+					RecipeRemover.removeFurnaceRecipe(Wood.chesnut);
+					RecipeRemover.removeFurnaceRecipe(Wood.citrus);
+					RecipeRemover.removeFurnaceRecipe(Wood.coco);
+					RecipeRemover.removeFurnaceRecipe(Wood.ebony);
+					RecipeRemover.removeFurnaceRecipe(Wood.greenheart);
+					RecipeRemover.removeFurnaceRecipe(Wood.ipe);
+					RecipeRemover.removeFurnaceRecipe(Wood.kapok);
+					RecipeRemover.removeFurnaceRecipe(Wood.larch);
+					RecipeRemover.removeFurnaceRecipe(Wood.lime);
+					RecipeRemover.removeFurnaceRecipe(Wood.mahoe);
+					RecipeRemover.removeFurnaceRecipe(Wood.maple);
+					RecipeRemover.removeFurnaceRecipe(Wood.padauk);
+					RecipeRemover.removeFurnaceRecipe(Wood.palm);
+					RecipeRemover.removeFurnaceRecipe(Wood.papaya);
+					RecipeRemover.removeFurnaceRecipe(Wood.zebra);
+					RecipeRemover.removeFurnaceRecipe(Wood.willow);
+					RecipeRemover.removeFurnaceRecipe(Wood.pine);
+					RecipeRemover.removeFurnaceRecipe(Wood.plum);
+					RecipeRemover.removeFurnaceRecipe(Wood.poplar);
+					RecipeRemover.removeFurnaceRecipe(Wood.teak);
+					RecipeRemover.removeFurnaceRecipe(Wood.walnut);
+					RecipeRemover.removeFurnaceRecipe(Wood.giant);
+					RecipeRemover.removeFurnaceRecipe(Wood.mahogany);
+					RecipeRemover.removeFurnaceRecipe(Wood.sequoia);
+					RecipeRemover.removeFurnaceRecipe(Wood.wenge);
 					
 					GameRegistry.addSmelting(Wood.acacia , (charcoal2), 0.1F);
 					GameRegistry.addSmelting(Wood.balsa , (charcoal2), 0.1F);
